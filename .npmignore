@@ -1,4 +1,4 @@
 node_modules
 .idea
-lib/index.ts
+lib/index.tsx
 tsconfig.json

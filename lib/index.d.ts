@@ -1,5 +1,6 @@
+import React from 'react';
 import type { FC } from 'react';
-export declare const KeepAliveContext: import("react").Context<KeepAliveLayoutProps>;
+export declare const KeepAliveContext: React.Context<KeepAliveLayoutProps>;
 export declare function useKeepOutlets(): JSX.Element;
 interface KeepAliveLayoutProps {
     keepalive: any[];
