@@ -1,0 +1,36 @@
+{
+  "name": "@chanjs/keepalive",
+  "version": "1.0.0",
+  "description": "Realize the keepalive function of react.",
+  "main": "lib/index.js",
+  "types": [
+    "lib/index.d.ts"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc && esbuild lib/index.tsx --bundle --outdir=lib --platform=node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chanjs/keepalive.git"
+  },
+  "keywords": [
+    "react",
+    "keepalive"
+  ],
+  "author": [
+    "chan <1328059093@qq.com> (https://github.com/csj1328059093)"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chanjs/keepalive/issues"
+  },
+  "homepage": "https://github.com/chanjs/keepalive#readme",
+  "dependencies": {
+    "react": "^18.1.0",
+    "react-router-dom": "^6.3.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.8"
+  }
+}
