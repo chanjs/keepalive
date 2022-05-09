@@ -6,6 +6,7 @@ interface KeepAliveLayoutProps {
     keepalive: any[];
     keepElements?: any;
     delCache?: (path: string) => void;
+    children?: any;
 }
 declare const KeepAliveLayout: FC<KeepAliveLayoutProps>;
 export default KeepAliveLayout;
